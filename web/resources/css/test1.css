@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../font/Roboto-Regular.ttf) format('truetype');
+}
+
+.footer {
+    font-family: 'Roboto-Regular';
+    color: skyblue;
+}

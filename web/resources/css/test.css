@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../font/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Marvel-Regular';
+    src: url(../font/Marvel-Regular.ttf) format('truetype');
+}
+/* 设置外框为橙色 */
+.navbar {
+    background-color: orange;
+}
+
+/* 设置字体为白色 */
+.navbar a {
+    font-family: 'Roboto-Regular';
+    color: skyblue;
+}
+
+/* 鼠标选中时改变颜色 */
+.navbar a:hover {
+    font-family: 'Marvel-Regular';
+    color: yellow; /* 或者您可以选择其他颜色 */
+}
